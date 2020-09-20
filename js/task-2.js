@@ -7,10 +7,6 @@ const ingredients = [
   'Приправы',
 ];
 
-// let ing = ingredients.map(ingredient => {
-//   return ingredient;
-// });
-
 const allItems = ingredients.map(item => {
   const li = document.createElement('li');
   li.textContent = item;
